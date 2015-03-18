@@ -33,6 +33,7 @@ void loop(void) {
 	   	//DEBUG:
 	   	//Serial.println(tag.getUidString());
 	   	//pulse();
+	   	while(nfc.tagPresent()); //only type password once
     }
 }
 
