@@ -6,7 +6,7 @@ My setup runs on a [jtron beetle](http://www.dfrobot.com/wiki/index.php/Beetle_S
 It checks scanned NFC tags for the correct UID, and if a match is found, it types the password and presses the return key.
 
 The NFC library used is [this one from Seeed Studio](https://github.com/Seeed-Studio/PN532/) which has been added as a submodule in the lib. Be sure to pull the nested submodule as well by using:
-'''git submodule update --init --recursive'''
+```git submodule update --init --recursive```
 after having cloned from here.
 
 That's it. Happy hacking.
