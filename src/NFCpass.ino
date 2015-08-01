@@ -17,7 +17,6 @@ void setup(void) {
 void loop(void) {
     if (nfc.tagPresent())
     {
-
         NfcTag tag = nfc.read();
 	   	if(tag.getUidString()==correctUID) Keyboard.println(password);
 	   	while(nfc.tagPresent()); //only type password once
