@@ -1,7 +1,8 @@
 # NFCpass
 Runs on an Arduino Leonardo compatible device (needs to be able to act as a keyboard)
 
-My setup runs on a [jtron beetle](http://www.dfrobot.com/wiki/index.php/Beetle_SKU:DFR0282), with a slightly hacked (for size) [Grove NFC unit](http://www.seeedstudio.com/depot/Grove-NFC-p-1804.html) I have soldered the jtron to a USB port on my motherboard, and it works quite well
+My setup runs on a [jtron beetle](http://www.dfrobot.com/wiki/index.php/Beetle_SKU:DFR0282), with a slightly hacked (for size) [Grove NFC unit](http://www.seeedstudio.com/depot/Grove-NFC-p-1804.html) I have soldered the jtron to a USB port on my motherboard, and it works quite well.
+A [Digistump](http://www.ebay.com/itm/Digispark-Kickstarter-ATTINY85-Arduino-General-Micro-USB-Development-Board-/310701802419) could do it as well.
 
 It checks scanned NFC tags for the correct UID, and if a match is found, it types the password and presses the return key. [Video](https://www.youtube.com/watch?v=o-T9tJWFwTk)
 
